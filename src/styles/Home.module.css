@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.HomeContainer{
+    width: 99.7vw;
+    height: 89.3vh;
+    /* border: 2px solid red; */
+    display: flex;
+    /* justify-content:center; */
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+}
+.SearchBar{
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 35px;
+    /* border: 1px solid black; */
+   
+    
+    
+
+}
+
+/* input[type="search"]{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background: #f7f7f7;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.2rem;
+    outline: none;
+}
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration { display: none; } */
+
+.addBtnDiv{
+    margin-top: 4%;
+    position: relative;
+    left: 38%;
+    
+}
+
+.btn{
+    background:white ;
+    padding: 10px 20px;
+    outline: none;
+    /* border: none; */
+    /* border-color: burlywood; */
+    border-radius: 15px;
+    color: #04AA6D;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 1.2rem;   
+}
+
+.table td,.table th{
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+
+}
+
+.table th{
+
+    background-color: #04AA6D;
+    color: #fff;
+}
+
+
+.table tr:nth-child(2n+1){
+    background-color: #f2f2f2;
+}
